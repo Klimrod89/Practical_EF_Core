@@ -1,6 +1,6 @@
 ﻿namespace EFCore_DBLibrary;
 
-public class Class1
+public class ApplicationDBContext
 {
 
 }
