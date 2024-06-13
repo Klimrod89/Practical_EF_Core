@@ -1,6 +1,17 @@
-﻿namespace EFCore_DBLibrary;
+﻿using Microsoft.EntityFrameworkCore;
 
-public class ApplicationDBContext
+namespace EFCore_DBLibrary;
+
+public class ApplicationDBContext : DbContext
 {
+    public ApplicationDBContext()
+    {
+        
+    }
+    public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
+    {
+
+    }
 
 }
+
